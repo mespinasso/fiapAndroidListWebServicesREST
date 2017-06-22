@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         rvAndroids.setAdapter(androidAdapter);
         rvAndroids.setHasFixedSize(true);
 
-        RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
-        rvAndroids.addItemDecoration(itemDecoration);
+        /*RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
+        rvAndroids.addItemDecoration(itemDecoration);*/
 
         carregaDados();
     }
